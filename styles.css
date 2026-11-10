@@ -18,3 +18,20 @@
 .submit-heading{display:flex;align-items:flex-start;gap:16px}.submit-icon{width:52px;height:52px;flex:0 0 52px;border-radius:50%;display:grid;place-items:center;background:#ffe3b4;color:#995719;font-size:25px}.submit-kicker{margin:0 0 5px;color:#a76422;font-size:11px}.submit-heading h2{margin:0 0 10px;font-size:22px;color:#2d2018}.submit-heading p:last-child{font-size:13px;line-height:2;color:#6f5947}
 .joke-form{display:flex;flex-direction:column;gap:9px}.joke-form label{font-size:13px;font-weight:700;color:#35271e}.joke-form label span{font-weight:400;color:#8b7968}.joke-form label strong{color:#b3442c}.joke-form input[type=text],.joke-form textarea{width:100%;box-sizing:border-box;border:1px solid #d9c4a8;border-radius:8px;padding:12px 14px;background:#fffdf9;color:#24170f;font:inherit;font-size:14px;outline:none}.joke-form input:focus,.joke-form textarea:focus{border-color:#c27b2d;box-shadow:0 0 0 3px #e9b76a33}.joke-form textarea{resize:vertical;line-height:1.9}.consent-row{display:flex;align-items:flex-start;gap:9px;margin:5px 0;font-weight:400!important;line-height:1.8}.consent-row input{margin-top:5px;accent-color:#a76524}.joke-submit-button{align-self:flex-start;border:0;border-radius:8px;padding:12px 24px;background:#a96324;color:white;font:inherit;font-size:13px;font-weight:700;cursor:pointer}.joke-submit-button:hover{background:#804719}.joke-submit-button:disabled{opacity:.6;cursor:wait}.joke-form-status{min-height:20px;margin:0;font-size:12px;font-weight:700}.joke-form-status.success{color:#287344}.joke-form-status.error{color:#b3442c}.joke-privacy-note{font-size:10px;color:#806d5b;line-height:1.8}
 @media(max-width:800px){.joke-submit{grid-template-columns:1fr;padding:22px;gap:18px}.submit-heading h2{font-size:19px}}
+/* خوانایی بهتر متن فکاهی‌ها */
+.humor-empty-card h3 {
+    color: #24170F;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.humor-empty-card p {
+    color: #30251D;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2.2;
+}
+
+.humor-empty-card {
+    background: #FFFFFF;
+}
