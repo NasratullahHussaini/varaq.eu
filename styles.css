@@ -202,3 +202,19 @@
 .thinking-cover-large .thinking-title b{font-size:38px}
 @media(max-width:800px){.thinking-cover-large{width:150px;height:205px;flex-basis:150px}.thinking-cover-large .thinking-title{font-size:22px}.thinking-cover-large .thinking-title b{font-size:32px}}
 @media(max-width:430px){.thinking-cover{height:235px}.thinking-cover-large{width:125px;height:180px;flex-basis:125px;padding:12px}.thinking-cover-large .thinking-author{font-size:7px}.thinking-cover-large .thinking-title{font-size:18px;margin-top:20px}.thinking-cover-large .thinking-title b{font-size:27px}.thinking-cover-large .thinking-subtitle{font-size:7px}}
+
+
+/* VARAQ Book 04 — Love Yourself First cover artwork */
+.love-yourself-cover{height:270px;max-width:190px;margin:auto;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#f8f1dc;background:radial-gradient(circle at 50% 38%,#59432e 0%,#30271f 55%,#191715 100%);border:1px solid #b88d39;box-shadow:0 16px 28px #20180e25;padding:18px}
+.love-yourself-cover:before{content:"";position:absolute;inset:9px;border:1px solid #d9b65c70;pointer-events:none}
+.ly-author,.ly-title,.ly-subtitle{position:relative;z-index:1}
+.ly-author{font-size:9px;letter-spacing:2.5px;color:#e8c96f}
+.ly-title{margin-top:34px;font-size:29px;line-height:1.6;font-weight:600}
+.ly-title b{font-size:43px;color:#f5c542}
+.ly-subtitle{margin-top:18px;font-size:9px;color:#e4d8bb}
+.ly-orbit{position:absolute;width:190px;height:190px;border:1px solid #d8b35a66;border-radius:50%;transform:rotate(-25deg);left:-65px;top:58px}
+.love-yourself-cover-large{width:190px;height:250px;max-width:190px;flex:0 0 190px;transform:rotate(-3deg)}
+.love-yourself-cover-large .ly-title{font-size:27px}
+.love-yourself-cover-large .ly-title b{font-size:40px}
+@media(max-width:800px){.love-yourself-cover-large{width:150px;height:205px;flex-basis:150px}.love-yourself-cover-large .ly-title{font-size:23px}.love-yourself-cover-large .ly-title b{font-size:34px}}
+@media(max-width:430px){.love-yourself-cover-large{width:125px;height:180px;flex-basis:125px;padding:12px}.love-yourself-cover-large .ly-author{font-size:7px}.love-yourself-cover-large .ly-title{font-size:19px;margin-top:22px}.love-yourself-cover-large .ly-title b{font-size:29px}.love-yourself-cover-large .ly-subtitle{font-size:7px}}
