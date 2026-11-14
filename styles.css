@@ -100,3 +100,90 @@
 .books-teaser-copy{max-width:690px}.books-teaser-copy h2{font-size:27px;margin:0 0 8px}.books-teaser-copy h2 em{font-style:normal;color:#f5c542}.books-teaser-copy>p:not(.eyebrow){font-size:13px;line-height:2.2;color:#c3beb2;margin:0 0 20px}
 @media(max-width:800px){.books-teaser{margin:35px 18px 50px;padding:25px;gap:22px}.books-teaser-cover{width:112px;height:150px;flex-basis:112px}.books-teaser-cover span{font-size:17px}.books-teaser-cover strong{font-size:31px}.books-teaser-copy h2{font-size:21px}}
 @media(max-width:430px){.books-teaser{align-items:flex-start;gap:16px}.books-teaser-cover{width:88px;height:126px;flex-basis:88px}.books-teaser-cover span{font-size:14px}.books-teaser-cover strong{font-size:26px}.books-teaser-cover small{font-size:6px}.books-teaser-copy>p:not(.eyebrow){font-size:11px}}
+
+
+/* VARAQ Books layout correction — v2 */
+.books-page {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.books-page main {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.books-page .books-hero,
+.books-page .books-content {
+  width: min(100% - 40px, 1050px);
+  max-width: 1050px;
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+.books-page .books-hero {
+  padding: 76px 20px 48px;
+  text-align: center;
+}
+.books-page .books-hero h1 {
+  max-width: 900px;
+  margin: 18px auto 12px;
+  text-align: center;
+}
+.books-page .books-hero > p {
+  width: 100%;
+  max-width: 680px;
+  margin-inline: auto;
+  text-align: center;
+}
+.books-page .books-content {
+  padding: 15px 0 85px;
+}
+.books-page .book-list-card {
+  width: 100%;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 190px) minmax(0, 1fr);
+  direction: rtl;
+  align-items: center;
+  gap: 30px;
+  padding: 25px;
+  background: #fffdf8;
+  border: 1px solid #e6dece;
+  border-radius: 13px;
+  box-shadow: 0 14px 40px #00000008;
+}
+.books-page .book-list-copy { min-width: 0; text-align: right; }
+.books-page .book-cover-link { width: 100%; max-width: 190px; margin-inline: auto; }
+.books-page .atomic-cover { width: 100%; }
+.books-page .books-note { width: 100%; }
+.books-page .site-footer { width: 100%; }
+@media (max-width: 800px) {
+  .books-page .books-hero { padding: 55px 0 35px; }
+  .books-page .books-content { padding: 15px 0 60px; }
+  .books-page .book-list-card { grid-template-columns: minmax(0, 1fr); gap: 22px; padding: 20px; }
+  .books-page .book-cover-link { width: 190px; }
+  .books-page .book-list-copy { text-align: right; }
+}
+@media (max-width: 480px) {
+  .books-page .books-hero,
+  .books-page .books-content { width: calc(100% - 32px); }
+  .books-page .books-heading { align-items: flex-start; flex-direction: column; }
+  .books-page .book-list-card { padding: 16px; }
+}
+
+
+/* VARAQ Book 02 — Psychology of Money cover artwork */
+.psych-money-cover{height:270px;max-width:190px;margin:auto;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#f7f0dc;background:radial-gradient(circle at 52% 42%,#3b4d59 0%,#17232c 58%,#11171c 100%);border:1px solid #b88d39;box-shadow:0 16px 28px #20180e25;padding:18px}
+.psych-money-cover:before{content:"";position:absolute;inset:9px;border:1px solid #d9b65c70;pointer-events:none}
+.pm-author,.pm-title,.pm-subtitle{position:relative;z-index:1}
+.pm-author{font-size:9px;letter-spacing:2.5px;color:#e8c96f}
+.pm-title{margin-top:34px;font-size:29px;line-height:1.6;font-weight:600}
+.pm-title b{font-size:48px;color:#f5c542}
+.pm-subtitle{margin-top:18px;font-size:9px;color:#e4d8bb}
+.pm-orbit{position:absolute;width:190px;height:190px;border:1px solid #d8b35a66;border-radius:50%;transform:rotate(-25deg);left:-65px;top:58px}
+.psych-money-cover-large{width:190px;height:250px;max-width:190px;flex:0 0 190px;transform:rotate(-3deg)}
+.psych-money-cover-large .pm-title{font-size:27px}
+.psych-money-cover-large .pm-title b{font-size:44px}
+@media(max-width:800px){.psych-money-cover-large{width:150px;height:205px;flex-basis:150px}.psych-money-cover-large .pm-title{font-size:23px}.psych-money-cover-large .pm-title b{font-size:37px}}
+@media(max-width:430px){.psych-money-cover-large{width:125px;height:180px;flex-basis:125px;padding:12px}.psych-money-cover-large .pm-author{font-size:7px}.psych-money-cover-large .pm-title{font-size:19px;margin-top:22px}.psych-money-cover-large .pm-title b{font-size:31px}.psych-money-cover-large .pm-subtitle{font-size:7px}}
