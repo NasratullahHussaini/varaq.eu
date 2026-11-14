@@ -187,3 +187,18 @@
 .psych-money-cover-large .pm-title b{font-size:44px}
 @media(max-width:800px){.psych-money-cover-large{width:150px;height:205px;flex-basis:150px}.psych-money-cover-large .pm-title{font-size:23px}.psych-money-cover-large .pm-title b{font-size:37px}}
 @media(max-width:430px){.psych-money-cover-large{width:125px;height:180px;flex-basis:125px;padding:12px}.psych-money-cover-large .pm-author{font-size:7px}.psych-money-cover-large .pm-title{font-size:19px;margin-top:22px}.psych-money-cover-large .pm-title b{font-size:31px}.psych-money-cover-large .pm-subtitle{font-size:7px}}
+
+
+/* VARAQ Book 03: Thinking, Fast and Slow */
+.thinking-cover{height:270px;max-width:190px;margin:auto;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:#f7f0dc;background:radial-gradient(circle at 50% 40%,#4a3b2d 0%,#201b1a 58%,#111 100%);border:1px solid #c69a3a;box-shadow:0 16px 28px #20180e25;padding:18px}
+.thinking-cover:before{content:"";position:absolute;inset:9px;border:1px solid #d9b65c70;pointer-events:none}
+.thinking-author{font-size:9px;letter-spacing:2px;color:#e9bd54;z-index:1}
+.thinking-title{font-size:25px;line-height:1.55;font-weight:800;margin-top:24px;z-index:1}
+.thinking-title b{font-size:34px;color:#f2c34f}
+.thinking-subtitle{font-size:9px;color:#e8d8b5;margin-top:24px;z-index:1}
+.thinking-orbit{position:absolute;width:210px;height:210px;border:1px solid #d6aa4c66;border-radius:50%;transform:rotate(-28deg) scaleX(.55);pointer-events:none}
+.thinking-cover-large{width:190px;height:250px;max-width:190px;flex:0 0 190px;transform:rotate(-3deg)}
+.thinking-cover-large .thinking-title{font-size:27px}
+.thinking-cover-large .thinking-title b{font-size:38px}
+@media(max-width:800px){.thinking-cover-large{width:150px;height:205px;flex-basis:150px}.thinking-cover-large .thinking-title{font-size:22px}.thinking-cover-large .thinking-title b{font-size:32px}}
+@media(max-width:430px){.thinking-cover{height:235px}.thinking-cover-large{width:125px;height:180px;flex-basis:125px;padding:12px}.thinking-cover-large .thinking-author{font-size:7px}.thinking-cover-large .thinking-title{font-size:18px;margin-top:20px}.thinking-cover-large .thinking-title b{font-size:27px}.thinking-cover-large .thinking-subtitle{font-size:7px}}
