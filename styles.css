@@ -281,3 +281,79 @@
     direction: rtl;
     z-index: 2;
 }
+
+/* Book 5 - Outfox the Fox cover */
+.outfox-the-fox-cover {
+  width: 190px;
+  height: 270px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 12px;
+  box-sizing: border-box;
+  background:
+    radial-gradient(ellipse at 50% 35%, #51402d 0%, #2b2119 48%, #171412 100%);
+  border: 1px solid #c59b35;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+  color: #f5d477;
+  text-align: center;
+  direction: rtl;
+}
+
+.outfox-the-fox-cover::before {
+  content: "";
+  position: absolute;
+  inset: 9px;
+  border: 1px solid rgba(197, 155, 53, 0.55);
+  pointer-events: none;
+}
+
+.of-author {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  color: #e8bd4e;
+  font-size: 9px;
+  letter-spacing: 2px;
+  direction: ltr;
+}
+
+.of-title {
+  position: relative;
+  z-index: 2;
+  font-size: 29px;
+  line-height: 1.8;
+  font-weight: 800;
+  color: #f4e8c9;
+}
+
+.of-title b {
+  color: #f5c644;
+  font-size: 35px;
+}
+
+.of-subtitle {
+  position: absolute;
+  bottom: 17px;
+  z-index: 2;
+  color: #e7d5a7;
+  font-size: 9px;
+}
+
+.of-orbit {
+  position: absolute;
+  width: 230px;
+  height: 100px;
+  border: 1px solid rgba(205, 164, 67, 0.4);
+  border-radius: 50%;
+  transform: rotate(-20deg);
+  bottom: 35px;
+  right: -65px;
+  pointer-events: none;
+}
